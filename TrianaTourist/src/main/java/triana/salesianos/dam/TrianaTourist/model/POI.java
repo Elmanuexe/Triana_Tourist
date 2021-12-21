@@ -28,20 +28,15 @@ public class POI {
     )
     private UUID id;
 
+    private String name;
     private String location;
-
     @Lob
     private String description;
-
     private LocalDate date;
-
     @ManyToOne
     private Category category;
-
     private String coverPhoto;
-
     private String photo2;
-
     private String photo3;
 
 }

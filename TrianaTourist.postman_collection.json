@@ -1,0 +1,428 @@
+{
+	"info": {
+		"_postman_id": "e9ff38c6-c951-4d53-8efb-6189e4fdb376",
+		"name": "TrianaTourist",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Categoria",
+			"item": [
+				{
+					"name": "Categoria",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"sus\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/categoria/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"categoria",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Una",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/categoria/c0a83801-7dd9-1b0a-817d-d97b6aa8000",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"categoria",
+								"c0a83801-7dd9-1b0a-817d-d97b6aa8000"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Todas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/categoria/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"categoria",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"caca\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/categoria/c0a83801-7dd9-1b0a-817d-d97b6aa80001",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"categoria",
+								"c0a83801-7dd9-1b0a-817d-d97b6aa80001"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Por id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/categoria/c0a83801-7dd9-1b0a-817d-d97b6aa80001",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"categoria",
+								"c0a83801-7dd9-1b0a-817d-d97b6aa80001"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Punto de interés",
+			"item": [
+				{
+					"name": "Punto de interes",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"jajaSi\",\r\n    \"location\":\"-34.43543, 43.23423\",\r\n    \"category\":\"sus\",\r\n    \"coverPhoto\":\"https://cdn.discordapp.com/attachments/389096985199771650/922640633137606716/Screenshot_1380.png\",\r\n    \"photo2\":\"https://www.google.com/url?sa=i&url=https%3A%2F%2Fsouldhacko.blogspot.com%2F2012%2F05%2Ftexto-en-los-lados-de-una-imagen.html&psig=AOvVaw13Ojp35y_aiw-M86zZz0I9&ust=1640131522224000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLDQ55fM8_QCFQAAAAAdAAAAABAD\",\r\n    \"photo3\":\"https://www.google.com/url?sa=i&url=https%3A%2F%2Fsp.depositphotos.com%2Fstock-photos%2Fpng.html&psig=AOvVaw3Cele9kJPUljbj3Adh-ErU&ust=1640131599475000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJi71bzM8_QCFQAAAAAdAAAAABAD\"\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/poi/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"poi",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Una",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/poi/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"poi",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Todas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/poi/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"poi",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"caca\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/poi/c0a83801-7dd9-1b0a-817d-d97b6aa80001",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"poi",
+								"c0a83801-7dd9-1b0a-817d-d97b6aa80001"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Por id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/poi/c0a83801-7dd9-1b0a-817d-d97b6aa80001",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"poi",
+								"c0a83801-7dd9-1b0a-817d-d97b6aa80001"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Rutas",
+			"item": [
+				{
+					"name": "Ruta",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Ruta de la Cerveza\",\r\n    \"steps\":[]\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/ruta/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ruta",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Una",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ruta/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ruta",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Todas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ruta/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ruta",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Editar",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"caca\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/ruta/c0a83801-7dd9-1b0a-817d-d97b6aa80001",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ruta",
+								"c0a83801-7dd9-1b0a-817d-d97b6aa80001"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Añadir una parada",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\":\"jajaSi\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/ruta/c0a83801-7dda-1295-817d-da5331ed0002/agregar",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ruta",
+								"c0a83801-7dda-1295-817d-da5331ed0002",
+								"agregar"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Borrar parada",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ruta/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ruta",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Por id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/ruta/c0a83801-7dd9-1b0a-817d-d97b6aa80001",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"ruta",
+								"c0a83801-7dd9-1b0a-817d-d97b6aa80001"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -6,4 +6,8 @@ import triana.salesianos.dam.TrianaTourist.model.POI;
 import java.util.UUID;
 
 public interface POIRepository extends JpaRepository<POI, UUID> {
+
+    boolean existsByName(String nombre);
+
+    POI findByName(String nombre);
 }
